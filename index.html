@@ -1,0 +1,100 @@
+<!-- valentine_map_combined.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine Map</title>
+    <link href="https://fonts.googleapis.com/css2?family=Katibeh&family=Poppins:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <p class="date">Fri 7 - Sun 16</p><br>
+            <div class="title-container">
+                <h1>Hello Bubbu,
+                    <h3>will you be my</h3>
+                </h1>
+                <span class="highlight">Valentine?</span>
+            </div>
+            <p>Its nothing something too special, but consider this an apology, feel free to click on the numbers on the map!!</p>
+        </div>
+
+        <div class="map">
+            <img src="media/minimap.svg" alt="Map" class="map-image">
+            <div class="number" data-target="popup1" style="top: 25%; left: 20%;">1</div>
+            <div class="number" data-target="popup2" style="top: 65%; left: 30%;">2</div>
+            <div class="number" data-target="popup3" style="top: 60%; left: 50%;">3</div>
+            <div class="number" data-target="popup4" style="top: 40%; left: 50%;">4</div>
+            <div class="number" data-target="popup5" style="top: 50%; left: 80%;">5</div>
+        </div>
+    </div>
+    <!--
+    <a href="#" class="download">Download itinerary</a>
+    -->
+
+    <!-- Popups -->
+    <div id="popup1" class="popup">
+        <div class="popup-content">
+            <img src="media/home.png" alt="Popup 1">
+            <div class="text-container">
+                <h1>My House</h1>
+                <p>Eat! Sleep! Cuddle! and Repeat!
+                    <br>the only rule is to keep making memories.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup2" class="popup">
+        <div class="popup-content">
+            <img src="media/meow.png" alt="Popup 1">
+            <div class="text-container">
+                <h1>Meow meow?</h1>
+                <p>the white kitty!! but you are wayyy cuter!!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup3" class="popup">
+        <div class="popup-content">
+            <img src="media/hangout.png" alt="Popup 1">
+            <div class="text-container">
+                <h1>Hangouts</h1>
+                <p>Nothing too fancy... we could hang out and have fun... gossip a lot and go on drives
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup4" class="popup">
+        <div class="popup-content">
+            <img src="media/datenight.png" alt="Popup 1">
+            <div class="text-container">
+                <h1>Sleep Over!</h1>
+                <p>I know you will be home alone... and I promise to come over and keep your company!! AND YOU ARE INVITED OVER AS WELL!!!
+                    Everyone would love to have you here!!!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup5" class="popup">
+        <div class="popup-content">
+            <img src="media/laddoo.png" alt="Popup 1">
+            <div class="text-container">
+                <h1>Air Show</h1>
+                <p>Do you want to go to the AirShow with me on the 14th! I come pick you up in my car and we have loads of fun time!!
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
